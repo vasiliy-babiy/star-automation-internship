@@ -1,0 +1,26 @@
+{
+  "name": "wdio-internship",
+  "version": "1.0.0",
+  "description": "Test Automation Framework",
+  "main": "index.js",
+  "author": "Vasyl Babii<vbabii@star.global>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.23.7",
+    "@babel/preset-env": "7.23.8",
+    "@babel/register": "7.23.7",
+    "@wdio/cli": "8.29.0",
+    "@wdio/local-runner": "8.29.1",
+    "@wdio/mocha-framework": "8.29.1",
+    "@wdio/spec-reporter": "8.29.1",
+    "dayjs": "1.11.10",
+    "axios": "1.6.7"
+  },
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js"
+  },
+  "engines": {
+    "node": "21.6.1",
+    "yarn": "1.22.21"
+  }
+}
